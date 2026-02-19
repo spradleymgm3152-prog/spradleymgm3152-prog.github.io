@@ -1,0 +1,13 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>American Catfishing Anglers App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; padding: 40px; text-align: center;">
+  <h1>American Catfishing Anglers App</h1>
+  <p>The official website for the American Catfishing Anglers App.</p>
+  <p>Community-driven. Tournament-ready. Built for anglers.</p>
+</body>
+</html>
