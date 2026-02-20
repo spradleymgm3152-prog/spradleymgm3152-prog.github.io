@@ -1,1 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>American Catfishing Anglers App</title>
+  <meta name="description" content="Official website for the American Catfishing Anglers App." />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; padding: 0; background: #0b0f14; color: #e9eef5; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 48px 20px; }
+    .card { background: #121a24; border: 1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 28px; }
+    h1 { margin: 0 0 10px; font-size: 34px; letter-spacing: .2px; }
+    p { line-height: 1.55; margin: 10px 0; color: rgba(233,238,245,.9); }
+    .pill { display: inline-block; padding: 6px 10px; border-radius: 999px; background: rgba(0,200,140,.14); border: 1px solid rgba(0,200,140,.35); color: #bff5e4; font-weight: 600; font-size: 12px; }
+    .links a { color: #9fd3ff; text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+    .footer { margin-top: 18px; font-size: 13px; color: rgba(233,238,245,.65); }
+    ul { margin: 10px 0 0 18px; }
+    li { margin: 6px 0; }
+    code { background: rgba(255,255,255,.06); padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="pill">Official Site</div>
+      <h1>American Catfishing Anglers App</h1>
 
+      <p>
+        Welcome to the official website for the <strong>American Catfishing Anglers App</strong> — a community-focused platform
+        built specifically for catfish anglers.
+      </p>
+
+      <p><strong>What the app is for</strong></p>
+      <ul>
+        <li>Catfish tournament participation and community engagement</li>
+        <li>Logging catches and learning from shared community trends</li>
+        <li>Helpful fishing information and tools designed for catfishing</li>
+      </ul>
+
+      <p><strong>Support</strong></p>
+      <p class="links">
+        If you need help, contact us at: <a href="mailto:support@americancatfishanglersapp.com">support@americancatfishanglersapp.com</a>
+      </p>
+
+      <p><strong>Privacy</strong></p>
+      <p class="links">
+        Privacy Policy: <a href="privacy.html">View Privacy Policy</a>
+      </p>
+
+      <div class="footer">
+        © <span id="y"></span> American Catfishing Anglers App. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
